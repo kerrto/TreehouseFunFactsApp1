@@ -15,6 +15,8 @@
 		AB38A81F1BEDEB1A00E00C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB38A81D1BEDEB1A00E00C12 /* LaunchScreen.storyboard */; };
 		AB38A82A1BEDEB1A00E00C12 /* SimpleIphoneAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38A8291BEDEB1A00E00C12 /* SimpleIphoneAppTests.m */; };
 		AB38A8351BEDEB1A00E00C12 /* SimpleIphoneAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38A8341BEDEB1A00E00C12 /* SimpleIphoneAppUITests.m */; };
+		AB38A8441BEF14B600E00C12 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AB38A8431BEF14B600E00C12 /* FactBook.m */; };
+		ABC17DC61BEF355100462D3A /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC17DC51BEF355100462D3A /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		AB38A8301BEDEB1A00E00C12 /* SimpleIphoneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleIphoneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB38A8341BEDEB1A00E00C12 /* SimpleIphoneAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleIphoneAppUITests.m; sourceTree = "<group>"; };
 		AB38A8361BEDEB1A00E00C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB38A8421BEF14B600E00C12 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		AB38A8431BEF14B600E00C12 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		ABC17DC41BEF355100462D3A /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		ABC17DC51BEF355100462D3A /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,11 @@
 				AB38A8121BEDEB1900E00C12 /* AppDelegate.h */,
 				AB38A8131BEDEB1900E00C12 /* AppDelegate.m */,
 				AB38A8151BEDEB1900E00C12 /* ViewController.h */,
+				AB38A8421BEF14B600E00C12 /* FactBook.h */,
+				AB38A8431BEF14B600E00C12 /* FactBook.m */,
+				ABC17DC51BEF355100462D3A /* ColorWheel.m */,
 				AB38A8161BEDEB1900E00C12 /* ViewController.m */,
+				ABC17DC41BEF355100462D3A /* ColorWheel.h */,
 				AB38A8181BEDEB1900E00C12 /* Main.storyboard */,
 				AB38A81B1BEDEB1A00E00C12 /* Assets.xcassets */,
 				AB38A81D1BEDEB1A00E00C12 /* LaunchScreen.storyboard */,
@@ -275,7 +285,9 @@
 			files = (
 				AB38A8171BEDEB1900E00C12 /* ViewController.m in Sources */,
 				AB38A8141BEDEB1900E00C12 /* AppDelegate.m in Sources */,
+				AB38A8441BEF14B600E00C12 /* FactBook.m in Sources */,
 				AB38A8111BEDEB1900E00C12 /* main.m in Sources */,
+				ABC17DC61BEF355100462D3A /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +513,7 @@
 				AB38A83B1BEDEB1A00E00C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB38A83C1BEDEB1A00E00C12 /* Build configuration list for PBXNativeTarget "SimpleIphoneAppTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +522,7 @@
 				AB38A83E1BEDEB1A00E00C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB38A83F1BEDEB1A00E00C12 /* Build configuration list for PBXNativeTarget "SimpleIphoneAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +531,7 @@
 				AB38A8411BEDEB1A00E00C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
